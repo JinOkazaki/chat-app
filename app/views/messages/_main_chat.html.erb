@@ -1,36 +1,57 @@
 <div class="chat-header">
-  <div class="group-name">
-    <div>hogefuga</div>
+  <div class="left-header">
+    <div class="header-title">
+      hogefuga
+    </div>
   </div>
-  <div class="chat-end">
-    <a href="#">チャットを終了する</a>
+  <div class="right-header">
+    <div class="header-button">
+      <a href="#">チャットを終了する</a>
+    </div>
   </div>
 </div>
 
 <div class="messages">
   <div class="message">
-    <p class="user-name">Tom</p>
-    <p class="deta">2020/3/31(Wed) 12:43:30</p>
+    <div class="upper-message">
+      <div class="message-user">
+        Tom
+      </div>
+      <div class="message-date">
+        2020/3/31(Wed) 12:43:30
+      </div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">
+        おはよう
+      </div>
+    </div>
   </div>
-  <div class="text">
-    <p>おはよう</p>
-  </div>
+
   <div class="message">
-    <p class="user-name">Tom</p>
-    <p class="deta">2020/3/31(Wed) 11:59:16</p>
-  </div>
-  <div class="text">
-    <p>こんばんは</p>
+    <div class="upper-message">
+      <div class="message-user">
+        Tom
+      </div>
+      <div class="message-date">
+        2020/3/31(Wed) 12:47:30
+      </div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">
+        こんばんは
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="form">
-  <div class="form-message">
-    <input type="text" placeholder="type a message" class="input">
+  <div class="form-input">
+    <input class="form-message" placeholder= "type a message">
     <label class="form-image">
       <span class="image-file">画像</span>
       <input type="file" class="hidden">
     </label>
   </div>
-  <input type="submit" value="送信" class="submit">
+  <input class="form-submit" type="submit" value="送信">
 </div>
